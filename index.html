@@ -33,6 +33,9 @@
             colors: {
               clifford: "#da373d",
               "main-btn-color": "rgb(255, 66, 64)",
+              "card-bg-color1": "rgba(188, 237, 109, 0.1)",
+              "card-bg-color2": "rgba(253, 221, 95, 0.1)",
+              "card-bg-color3": "rgba(98, 156, 243, 0.1)",
             },
           },
         },
@@ -598,7 +601,9 @@
         </div>
 
         <!-- Program Sections FAQs -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center justify-center border-base-300 border p-8 rounded-2xl">
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center justify-center border-base-300 border p-8 rounded-2xl"
+        >
           <!-- grid image -->
           <div class="justify-self-center">
             <img src="./Images/11.png" alt="" />
@@ -692,7 +697,124 @@
                 </p>
               </div>
             </div>
-            
+          </div>
+        </div>
+      </section>
+
+      <!-- Get In Touch section -->
+      <section class="w-11/12 md:max-w-screen-lg mx-auto pb-10">
+        <!-- Get In Touch Sections text -->
+        <div class="text-center w-3/5 mx-auto space-y-4 pb-10">
+          <h2 class="text-3xl md:text-4xl font-extrabold">Get In Touch</h2>
+          <p class="text-gray-500 font-medium text-sm">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+
+        <!-- Get In Touch Sections grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-8">
+          <!-- 1st grid -->
+          <div class="lg:col-span-2 space-y-6 border rounded-2xl p-10">
+            <!-- card - 1 -->
+            <div class="p-6 space-y-4 shadow-xl rounded-2xl bg-card-bg-color1">
+              <div class="">
+                <img
+                  src="./Images/Group 1171275317.png"
+                  alt="Shoes"
+                  class="justify-start"
+                />
+              </div>
+              <div class="">
+                <p class="text-gray-400 text-sm">Phone Number</p>
+                <h2 class="text-lg font-extrabold">(+62) 123-321-543</h2>
+              </div>
+            </div>
+            <!-- card - 2 -->
+            <div class="p-6 space-y-4 shadow-xl rounded-2xl bg-card-bg-color2">
+              <div class="">
+                <img
+                  src="./Images/Group 1171275318.png"
+                  alt="Shoes"
+                  class="justify-start"
+                />
+              </div>
+              <div class="">
+                <p class="text-gray-400 text-sm">Phone Number</p>
+                <h2 class="text-lg font-extrabold">(+62) 123-321-543</h2>
+              </div>
+            </div>
+            <!-- card - 3 -->
+            <div class="p-6 space-y-4 shadow-xl rounded-2xl bg-card-bg-color3">
+              <div class="">
+                <img
+                  src="./Images/Group 1171275321.png"
+                  alt="Shoes"
+                  class="justify-start"
+                />
+              </div>
+              <div class="">
+                <p class="text-gray-400 text-sm">Phone Number</p>
+                <h2 class="text-lg font-extrabold">(+62) 123-321-543</h2>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2nd grid -->
+          <div class="lg:col-span-3">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <!-- input field Name -->
+              <div>
+                <p class="text-lg font-bold mb-4">Your Name</p>
+                <input
+                  type="text"
+                  placeholder="Enter your full name"
+                  class="input input-bordered w-full bg-gray-200 bg-opacity-50"
+                />
+              </div>
+
+              <!-- input field Email -->
+              <div>
+                <p class="text-lg font-bold mb-4">Your Email</p>
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  class="input input-bordered w-full bg-gray-200 bg-opacity-50"
+                />
+              </div>
+
+              <!-- input field Subject -->
+              <div>
+                <p class="text-lg font-bold mb-4">Subject</p>
+                <input
+                  type="text"
+                  placeholder="Enter your Subject"
+                  class="input input-bordered w-full bg-gray-200 bg-opacity-50"
+                />
+              </div>
+
+              <!-- input field Phone Number -->
+              <div>
+                <p class="text-lg font-bold mb-4">Your Phone Number</p>
+                <input
+                  type="number"
+                  placeholder="Enter your Phone Number"
+                  class="input input-bordered w-full bg-gray-200 bg-opacity-50"
+                />
+              </div>
+              <!-- input field Message -->
+              <div class="col-span-1 md:col-span-2 ">
+                <p class="text-lg font-bold mb-4">Message</p>
+                <textarea
+                  placeholder="Write your message"
+                  class="textarea textarea-bordered textarea-lg w-full bg-gray-200 bg-opacity-50 h-60"
+                ></textarea>
+              </div>
+              <!-- Button -->
+               <div class="col-span-1 md:col-span-2">
+                <button class="btn bg-red-500 w-full text-white">Send Message</button>
+               </div>
+            </div>
           </div>
         </div>
       </section>
